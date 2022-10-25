@@ -1,6 +1,10 @@
 # Informatics Чепкасов 041
-  Чисто таблиц: SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'
-  Выбрать число(*) из информационной схемы, где тип таблицы = 'основная таблица'
+
+
+Чисто таблиц: SELECT COUNT(*) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'
+
+
+Выбрать число(*) из информационной схемы, где тип таблицы = 'основная таблица'
   Названия таблиц: table_name FROM information_schema.tables
   Имя таблицы из информационной схемы
   Список пользователей: SELECT * FROM users;
