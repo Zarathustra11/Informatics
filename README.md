@@ -7,3 +7,8 @@
 # выбрать всё из пользователей
 # Узнать все оценки: SELECT * FROM grades;
 # Выбрать всё из оценок
+# SELECT * FROM grades;
+# SELECT * FROM users,grades;
+# Выбрать всё из пересечения таблиц users и grades
+# SELECT * FROM users,grades WHERE fam='Чепкасов';
+# Выбрать всё из пересечения таблиц users и grades, где фамилия = 'Чепкасов'
