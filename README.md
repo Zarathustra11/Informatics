@@ -25,13 +25,13 @@
 выбрать всё из оценок
   
   
-Вывысти пользователейс оценками: SELECT * FROM users,grades;
+Вывысти пользователей с оценками: SELECT * FROM users,grades WHERE users.user_id=grades.user_id;
 
 
 Выбрать всё из пересечения таблиц users и grades
 
 
-SELECT * FROM users,grades WHERE fam='Чепкасов';
+SELECT * FROM users WHERE fam='Чепкасов';
 
 
-Выбрать всё из пересечения таблиц users и grades, где фамилия = 'Чепкасов'
+Выбрать всё из пересечения таблиц users, где фамилия = 'Чепкасов'
