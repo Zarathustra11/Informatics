@@ -61,4 +61,4 @@ $$\tan^2 \frac\{\alpha}{2} = \frac\{1 - cos \alpha}{1 + cos \alpha}$$
 
 
 
-
+http://project6513964.tilda.ws/
